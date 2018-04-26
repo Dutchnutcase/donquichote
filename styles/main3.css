@@ -1,0 +1,290 @@
+
+
+address{
+	display: block;
+    font-style: italic;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+body {
+    padding-top: 50px;
+	background-color: white;
+}
+
+
+
+
+#carousel-section .item {
+    height: 220px;
+	
+}
+
+#carousel-slide-1 {
+    background: rgb(23, 23, 160);
+}
+
+#carousel-slide-2 {
+    background: #cc0000;
+}
+
+.carousel-inner .item .carousel-icon {
+    position: absolute;
+    font-size: 150px;
+    top: -50px;
+    left: -30px
+}
+
+.carousel-inner .item .carousel-text {
+    position: relative;
+    left: 170px;
+    text-align: left;
+    top: -35px;
+    margin-right: 110px;
+}
+
+@media only screen and (max-width: 480px) {
+    .carousel-inner .item .carousel-icon {
+        display: none;
+    }
+
+    .carousel-inner .item .carousel-text {
+        position: relative;
+        left: 0;
+        margin-right: 0;
+    }
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+	 min-height: 250px;
+	 margin: auto;
+	 overflow: hidden;
+	
+	  
+  }
+    position: absolute;
+    font-size: 150px;
+    top: -50px;
+    left: -30px
+
+.main-section:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+.main-section {
+    padding: 40px 40px;
+    border-bottom: 1px solid #dedede;
+}
+
+.row.course-row {
+    margin-bottom: 10px;
+}
+
+section h2.section-header, section h3.section-header {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+.icon-overlay {
+    color: black;
+    position: relative;
+    left: -200px;
+    font-size: 70%;
+    padding: 20px 0 10px 25px;
+    top: -13px
+}
+
+.carousel-icon.inversed-icon i {
+    color: black;
+}
+
+.carousel-icon.inversed-icon span.icon-overlay {
+    color: white;
+}
+
+.main-section .main-section-image {
+    text-align: center;
+}
+
+.main-section .main-section-image img {
+    max-width: 30%;
+}
+
+.carousel-text p {
+    visibility: hidden;
+}
+
+.centered {
+    text-align: center;
+}
+.right-align {
+    text-align: right;
+}
+
+.navbar-brand.logo img {
+    height: 21px;
+}
+
+.nav-tabs li a {
+      color: #777;
+  }
+  #googleMap {
+      width: 100%;
+      height: 400px;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+  }  
+  .navbar {
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+      background-color: #2d2d30;
+      border: 0;
+      font-size: 11px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+	 
+  }
+.navbar-header {
+		background-color: #db3d28;	
+}	
+.navbar-right{
+		background-color: #2d2d30;
+		
+		
+}
+ul {
+        list-style-type:none;
+        margin:0;
+		margin-left: 20px;
+        padding:0;
+        position: relative;
+		float: left;
+    display: block;
+    list-style-type: disc;
+  
+}
+
+  .navbar li a, .navbar .navbar-brand { 
+      color: #d5d5d5 !important;
+      overflow: hidden;
+      white-space: nowrap;
+  }
+  .navbar-nav p {
+	  color: #d5d5d5;
+	  font-family: Montserrat, sans-serif;
+      margin-bottom: 0;  
+      font-size: 16px !important;
+	  padding-top: 13px;
+      
+  }
+
+
+  .navbar-nav li a:hover {
+      color: #fff !important;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+  .open .dropdown-toggle {
+      color: #fff;
+      background-color: #555 !important;
+  }
+  .dropdown-menu li a {
+      color: #000 !important;
+  }
+  .dropdown-menu li a:hover {
+      background-color: red !important;
+  }
+
+ .nav-lid{
+	 margin-bottom: -8px;
+	 margin-top: -8px;
+ }
+.main-section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+.main-aside {
+  float: right;
+  width: 10%;
+  
+}
+
+.main-header {
+	width: 100%;
+}
+.p-section {
+	padding-bottom: 30px;
+}
+
+.side{
+margin-bottom: 40px;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 90%;
+} 
+
+.rounded{
+border-radius: 10px;
+
+}
+
+.img-rounded{
+border-radius: 10px 10px 0px 0px;
+}
+
+.img-rounded-mid{
+border-radius: 10px 10px 10px 10px;
+margin: 30px 10px 10px 10px;
+}
+
+.kopjetekst{
+
+text-align: left;
+padding-left: 25px;	
+padding-right: 25px;
+	
+}
+
+.workshop1{
+background-image: url(img/rsc.jpg);
+background-size: 100%;
+background-color: #db3d28;	
+
+
+}
+
+.link{
+background-color: #db3d28;
+	
+}
+.footertext{
+ 
+color: #d5d5d5;
+
+
+}
+
+hr.vertical
+{
+   width: 0px;
+   height: 40px; /* or height in PX */
+   color: white;
+}
+
+
