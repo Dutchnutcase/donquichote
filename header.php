@@ -91,6 +91,7 @@ data-target="#bs-example-navbar-collapse-1">
             $homeID = get_page_by_title( 'Home' );
             $lidwordenID = get_page_by_title( 'Lid Worden' );
         wp_list_pages( '&title_li=&exclude=' . $homeID->ID . ',' . $lidwordenID->ID ); ?>
+    <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 
 <li><a title="lidmaatschap" href="<?php bloginfo('wpurl'); ?>/lid-worden"><button type="button" class="btn btn-danger nav-lid" >lid worden</button></a></li>
 </ul>
