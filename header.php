@@ -84,16 +84,8 @@ data-target="#bs-example-navbar-collapse-1">
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <div class="col-lg-9">
 <ul class="nav navbar-nav navbar-right"style=" margin-right: 40px;">
-
-<li><a title="home" href="<?php bloginfo('wpurl'); ?>"><span class="glyphicon glyphicon-home" style="font-size: 15px;"></span></a></li>
-
-    <?php
-            $homeID = get_page_by_title( 'Home' );
-            $lidwordenID = get_page_by_title( 'Lid Worden' );
-        wp_list_pages( '&title_li=&exclude=' . $homeID->ID . ',' . $lidwordenID->ID ); ?>
+    <br/>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-
-<li><a title="lidmaatschap" href="<?php bloginfo('wpurl'); ?>/lid-worden"><button type="button" class="btn btn-danger nav-lid" >lid worden</button></a></li>
 </ul>
 </div>
 </div>
