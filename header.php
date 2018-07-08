@@ -5,7 +5,7 @@
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 <link href="<?php echo get_bloginfo('template_directory'); ?>/styles/main3.css" rel="stylesheet">
 
-<script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
 <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
 <link href="<?php echo get_bloginfo('template_directory'); ?>/swords/css/fontello.css" rel="stylesheet">
@@ -84,7 +84,6 @@ data-target="#bs-example-navbar-collapse-1">
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <div class="col-lg-9">
 <ul class="nav navbar-nav navbar-right"style=" margin-right: 40px;">
-    <br/>
     <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 </ul>
 </div>
