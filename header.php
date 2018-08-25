@@ -2,12 +2,13 @@
 <html lang="en">
   <head>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/styles/main3.css" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
 
-    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo get_bloginfo('template_directory'); ?>/swords/css/fontello.css" rel="stylesheet">
 
     <meta charset="UTF-8">
