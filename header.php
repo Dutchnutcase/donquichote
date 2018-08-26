@@ -75,7 +75,7 @@
               <span class="icon-bar"></span>
             </button>
 
-            <a title="NSSV Don Quichote" class="navbar-brand logo" href="<?php bloginfo('wpurl'); ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.gif" alt="logo"> <?php echo get_bloginfo( 'name' ); ?></a>
+            <a title="NSSV Don Quichote" class="navbar-brand logo" href="<?php bloginfo('wpurl'); ?>/<?php if (pll_current_language() != pll_default_language()) { echo pll_current_language(); } ?>"><img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.gif" alt="logo"> <?php echo get_bloginfo( 'name' ); ?></a>
           </div>
         </div>
 
