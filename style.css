@@ -79,7 +79,14 @@ img.alignright {
 .col-lg-7 > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
 	padding-left: 5px;
 }
-.tablepress-id-5 { width: 55%;
+.tablepress-id-5 {
+	width: 55%;
 }
-.tablepress-id-6 { width: 55%;
+.tablepress-id-6 {
+	width: 55%;
+}
+.childpages {
+	margin-bottom: 15px;
+	margin-left: 0px;
+	list-style-type: none;
 }

@@ -19,14 +19,16 @@
     if ( is_page() && $post->post_parent )
     {
       $childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->post_parent . '&echo=0' );
+      $parent_title = get_the_title($post->post_parent);
     }
     else
     {
       $childpages = wp_list_pages( 'sort_column=menu_order&title_li=&child_of=' . $post->ID . '&echo=0' );
+      $parent_title = get_the_title($post);
     }
     if ( $childpages )
     {
-      $string = '<ul>' . $childpages . '</ul>';
+      $string = '<h4>' . $parent_title . '</h4><ul class="childpages">' . $childpages . '</ul>';
     }
     return $string;
   }
