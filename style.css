@@ -70,7 +70,8 @@ img.alignright {
 .hasDatepicker {
 	width: 140px;
 }
-#rpwwt-recent-posts-widget-with-thumbnails-3.rpwwt-widget ul {
+#rpwwt-recent-posts-widget-with-thumbnails-3.rpwwt-widget ul,
+#rpwwt-recent-posts-widget-with-thumbnails-4.rpwwt-widget ul {
 	margin-bottom: 25px;
 }
 .col-lg-7 > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) {
@@ -89,4 +90,7 @@ img.alignright {
 	margin-bottom: 15px;
 	margin-left: 0px;
 	list-style-type: none;
+}
+h2 a {
+	color: #333;
 }
