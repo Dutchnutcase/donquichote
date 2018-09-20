@@ -33,4 +33,9 @@
     return $string;
   }
   add_shortcode('wpb_childpages', 'wpb_list_child_pages');
+  load_theme_textdomain('donquichote', get_template_directory() . '/languages');
+  add_action('after_setup_theme', 'donquichote_theme_setup');
+  function donquichote_theme_setup(){
+    load_theme_textdomain('donquichote', get_template_directory() . '/languages');
+  }
 ?>

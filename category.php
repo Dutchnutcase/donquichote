@@ -11,7 +11,7 @@
       <div style="margin-left: 15px;" >
         <div style="padding-bottom: 10px;" >
           <h3><?php echo '<a href=' . get_post_permalink() . '>' . get_the_title() . '</a>'; ?></h3>
-          <p class="blog-post-meta"><?php the_date(); ?>, by <?php the_author_posts_link(); ?></p>
+          <p class="blog-post-meta"><?php the_date(); ?>, <?php _e( 'by', 'donquichote' ); ?> <?php the_author_posts_link(); ?></p>
         </div>
         <?php the_content( '[...]' ); ?>
       </div>
