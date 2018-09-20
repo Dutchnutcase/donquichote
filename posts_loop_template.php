@@ -18,7 +18,7 @@
 	<!-- 	This outputs the post EXCERPT.  To display full content including images and html,
 		replace the_excerpt(); with the_content();  below. -->
 	<div class="entry-content">
-		<?php the_content(); ?>
+		<?php global $more; $more = 1; the_content(); ?>
 	</div>
 </div>
 <!-- // Post Wrap End -->
