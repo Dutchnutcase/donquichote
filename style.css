@@ -14,9 +14,12 @@ video {
         max-width: 100%; /* Adhere to container width. */
 }
 
-img.alignleft,
+img.alignleft {
+        float: left;
+        margin: 0;
+}
 img.alignright {
-        float: none;
+        float: right;
         margin: 0;
 }
 
@@ -35,11 +38,11 @@ img.alignright {
 }
 .alignleft {
 	float: left;
-	margin-right: 1.5em;
+	margin-right: 0;
 }
 .alignright {
 	float: right;
-        margin-left: 1.5em;
+        margin-left: 0;
 }
 .aligncenter {
 	float: center;
